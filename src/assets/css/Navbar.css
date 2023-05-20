@@ -1,77 +1,120 @@
-.HeadingNav p {
-    text-align: center;
-    font-size: 17px;
-    padding: 1rem;
-}
-
 .HeadingNav a {
-    text-decoration: underline;
-    color: grey;
-}
-.HeadingNav p{
-    color: rgb(87, 86, 86);
+  text-decoration: underline;
+  color: grey;
 }
 
-.HeadingNav{
-    background-color: white;
-   
-    position: fixed;
-    bottom: 100;
-    width: 100%;
-    
+.HeadingNav {
+  background-color: white;
+
+  position: fixed;
+  bottom: 100;
+  width: 100%;
 }
-.navbarMenu{
-    background-color: transparent;
-    position: fixed;
-    top: 5%;
-    width: 100%;
+.navbarMenu {
+  background-color: transparent;
+  position: fixed;
+  top: 5%;
+  width: 100%;
 }
-.navbarMenu a{
-    color: white;
-    font-weight: 500;
+.navbarMenu a {
+  color: white;
+  font-weight: 500;
 }
 
 .navbarMenu {
-    display: flex;
-    /* border: 1px solid red; */
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16px;
-    font-weight: 500;
-   
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
 }
 
 .navbarMenu ul li:hover {
-    transition: all 0.1s ease-in-out;
-    border: 1px solid rgb(98, 87, 87);
-    padding: 0.5px;
+  transition: all 0.1s ease-in-out;
+  border: 1px solid rgb(98, 87, 87);
+  padding: 0.5px;
 }
 
 .teslaLogo {
-    width: 5.1rem;
-    height: 30px;
-    object-fit: contain;
-    margin-left: 2rem;
+  width: 5.1rem;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 2rem;
 }
 
 .rightNav ul li {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .centerNav ul li {
-    margin-left: 0.6rem;
+  margin-left: 0.6rem;
 }
 
+.navbarWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.HeadingNav p {
+  text-align: center;
+  font-size: 17px;
+  padding: 1rem;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.HeadingNav a {
+  text-decoration: underline;
+  color: grey;
+}
+
+.HeadingNav p {
+  color: rgb(87, 86, 86);
+}
+
+.navbarMenu {
+  background-color: transparent;
+}
+
+.navbarMenu ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbarMenu ul li:hover {
+  transition: all 0.1s ease-in-out;
+  border: 1px solid rgb(98, 87, 87);
+  padding: 0.5px;
+}
+
+.teslaLogo {
+  width: 5.1rem;
+  height: 30px;
+  object-fit: contain;
+}

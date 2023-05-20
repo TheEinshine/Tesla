@@ -1,39 +1,98 @@
-
-#teslaVideo{
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+#teslaVideo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-
-.videoContainer{
-
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
+.videoContainer {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.212); /* example background color with transparency */
-    color: white;
-    display: flex;
-    vertical-align: top; /* Align items at the top */
-    justify-content: center;
-    flex-direction: column; /* Arrange text vertically */
-    font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.212
+  ); /* example background color with transparency */
+  color: white;
+  display: flex;
+  vertical-align: top; /* Align items at the top */
+  justify-content: center;
+  flex-direction: column; /* Arrange text vertically */
+  font-size: 24px;
+}
+
+.overlayText {
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.overlayText p {
+  font-size: medium;
+}
+
+.overlayButton {
+  text-align: center;
+  padding: 16rem;
+}
+
+.button-59 {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #fffdfd;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #999696;
+}
+
+.button-59:hover {
+  border-color: rgb(22, 14, 36);
+  color: rgb(3, 15, 34);
+  fill: #06f;
+}
+
+.button-59:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
   }
-  
-  .overlayText {
-    font-size: 24px;
-    color: white;
-    font-weight: 500;
-    text-align: center;
-  }
-  
+}

@@ -1,0 +1,86 @@
+.gallery-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.gallery-container .gallery {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.gallery-container .gallery .imgDiv {
+  position: relative;
+}
+
+.gallery-container .gallery .imgDiv .gallery-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.gallery-container .gallery .imgDiv .gallery-overlay h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-container .gallery .imgDiv .gallery-overlay p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.gallery-container .gallery .imgDiv .gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-container .gallery .overlayButtons {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+}
+
+.gallery-container .gallery .overlayButtons button {
+  padding: 0.5rem 4rem;
+  font-size: 1rem;
+  background-color: grey;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.gallery-container .gallery .overlayButtons button:hover {
+  background-color: #c00;
+}
+
+.gallery-container .gallery .overlayButtons button:first-child {
+  background-color: #007bff;
+}
+
+.gallery-container .gallery .overlayButtons button:first-child:hover {
+  background-color: #0069d9;
+}
+
+.gallery-overlay h1 {
+  color: black;
+}
+.gallery-overlay a {
+  color: black;
+  text-decoration: underline;
+}
+.gallery-overlay {
+  padding-bottom: 40rem;
+}

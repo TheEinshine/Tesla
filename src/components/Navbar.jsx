@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/css/Navbar.css";
 
-
 const Navbar = () => {
   return (
     <div className="navbarWrapper">
@@ -18,7 +17,6 @@ const Navbar = () => {
             src="https://i.ibb.co/q5Z1MTZ/oie-9p-WOJQO8-Z9-Pc-removebg-preview.png"
             alt="Tesla Logo"
           />
-
         </div>
         <div className="centerNav">
           <ul>
